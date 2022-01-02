@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.8c69c746.css",
+    "main.js": "/portfolio/static/js/main.91f09564.js",
+    "static/media/globalmedics.gif": "/portfolio/static/media/globalmedics.425d02001d7f741ad133.gif",
+    "static/media/final.png": "/portfolio/static/media/final.e29f24b702eaed84d8d9.png",
+    "static/media/infiniabiz.jpeg": "/portfolio/static/media/infiniabiz.8a55de2d1b01338b024d.jpeg",
+    "static/media/revved_copy.png": "/portfolio/static/media/revved_copy.5d5f89018b467d4035fb.png",
+    "static/media/flappy_copy.jpg": "/portfolio/static/media/flappy_copy.51e58728d449d51d259e.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.8c69c746.css.map": "/portfolio/static/css/main.8c69c746.css.map",
+    "main.91f09564.js.map": "/portfolio/static/js/main.91f09564.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8c69c746.css",
+    "static/js/main.91f09564.js"
+  ]
+}
