@@ -1,0 +1,49 @@
+@import './main';
+
+.resume-content {
+  color: $primary-font-color;
+  width: 70%;
+  margin-left: 15%;
+  // margin-bottom: 10%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  &_section_title {
+    font-size: 16px;
+    font-weight: bold;
+    color: $secondary-background;
+  }
+
+  &_section_entity_title {
+    padding-bottom: 10px;
+  }
+
+  &_section_institute_title {
+    color: $primary-font-color;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  &_section_degree_title {
+    color: $primary-font-color;
+    font-size: 14px;
+  }
+
+  &_section_date {
+    color: $primary-font-color;
+    font-size: 12px;
+  }
+
+  &_section_link {
+    font-size: 14px;
+    color: $secondary-background;
+  }
+}
+
+.resume-title {
+  text-align: center;
+  @include min-width-tablet {
+    display: none;
+  }
+  padding-bottom: 20px;
+}

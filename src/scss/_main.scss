@@ -1,0 +1,73 @@
+$primary-background: #453737;
+$primary-faded: '#';
+$secondary-background: #f1bb52;
+$primary-font-color: white;
+$secondary-font-color: #d7d0d0;
+
+$breakpoints: (
+  'phone': 360px,
+  'lgphone': 425px,
+  'tablet': 768px,
+  'smdesktop': 1028px,
+  'desktop': 1366px,
+  'lgdesktop': 1920px,
+) !default;
+
+@mixin phone {
+  @media only screen and (max-width: map-get($breakpoints, phone)) {
+    @content;
+  }
+}
+
+@mixin lgphone {
+  @media only screen and (max-width: map-get($breakpoints, lgphone)) {
+    @content;
+  }
+}
+
+@mixin min-width-lgphone {
+  @media only screen and (min-width: 426px) {
+    @content;
+  }
+}
+
+@mixin min-width-tablet {
+  @media only screen and (min-width: 769px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media only screen and (max-width: map-get($breakpoints, tablet)) {
+    @content;
+  }
+}
+
+@mixin min-width-smdesktop {
+  @media only screen and (min-width: map-get($breakpoints, smdesktop)) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media only screen and (max-width: map-get($breakpoints, desktop)) {
+    @content;
+  }
+}
+
+@mixin min-width-desktop {
+  @media only screen and (min-width: map-get($breakpoints, desktop)) {
+    @content;
+  }
+}
+@mixin lgdesktop {
+  @media only screen and (max-width: map-get($breakpoints, lgdesktop)) {
+    @content;
+  }
+}
+
+@mixin min-width-lgdesktop {
+  @media only screen and (min-width: map-get($breakpoints, lgdesktop)) {
+    @content;
+  }
+}

@@ -1,0 +1,50 @@
+.resume-content {
+  color: white;
+  width: 70%;
+  margin-left: 15%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.resume-content_section_title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #f1bb52;
+}
+
+.resume-content_section_entity_title {
+  padding-bottom: 10px;
+}
+
+.resume-content_section_institute_title {
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.resume-content_section_degree_title {
+  color: white;
+  font-size: 14px;
+}
+
+.resume-content_section_date {
+  color: white;
+  font-size: 12px;
+}
+
+.resume-content_section_link {
+  font-size: 14px;
+  color: #f1bb52;
+}
+
+.resume-title {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+@media only screen and (min-width: 769px) {
+  .resume-title {
+    display: none;
+  }
+}
+/*# sourceMappingURL=resume.css.map */

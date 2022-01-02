@@ -1,0 +1,116 @@
+.portfolio-content {
+  padding: 50px 0;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.portfolio-content__small_view {
+  display: none;
+}
+
+.portfolio-content_title {
+  color: #d7d0d0;
+  text-align: center;
+}
+
+@media only screen and (min-width: 769px) {
+  .portfolio-content_title {
+    display: none;
+  }
+}
+
+.portfolio-content_detail_wrapper {
+  padding: 50px 0;
+}
+
+.portfolio-content_project_wrapper {
+  padding-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.portfolio-content_project_wrapper_title {
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+}
+
+.portfolio-content_project_wrapper_link {
+  padding: 0 5%;
+  text-decoration: none;
+  cursor: pointer;
+  color: #f1bb52;
+  font-weight: bold;
+}
+
+.portfolio-content_project_wrapper_image {
+  height: 186px;
+  width: 250px;
+  margin-bottom: 30px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  -ms-flex-preferred-size: calc(25% - 10px);
+      flex-basis: calc(25% - 10px);
+  overflow: hidden;
+  padding-bottom: 134%;
+  position: relative;
+  padding: 0;
+  margin-right: 20px;
+}
+
+.portfolio-content_project_wrapper_image img {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+@media only screen and (min-width: 1028px) {
+  .portfolio-content_project_wrapper_image img {
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 1366px) {
+  .portfolio-content_project_wrapper_image img {
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width: 1366px) {
+  .portfolio-content_project_wrapper_image img {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.portfolio-content_project_wrapper_description {
+  color: white;
+  text-align: justify;
+}
+
+@media only screen and (min-width: 426px) {
+  .portfolio-content_project_wrapper_description {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .portfolio-content_project_wrapper_description {
+    width: 90%;
+    padding-left: 5%;
+  }
+}
+/*# sourceMappingURL=portfolio.css.map */

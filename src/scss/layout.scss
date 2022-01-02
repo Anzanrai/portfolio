@@ -1,0 +1,22 @@
+@import './main';
+
+.background-wrapper {
+  width: 100%;
+  min-height: 85vh;
+  background-color: $primary-background;
+}
+
+.footer-wrapper {
+  background-color: $secondary-background;
+  min-height: 15vh;
+}
+
+.footer-icon-wrapper {
+  padding-top: 36px;
+  padding-bottom: 36px;
+  max-width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}

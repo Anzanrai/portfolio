@@ -1,0 +1,43 @@
+.contact-content {
+  padding: 50px 0;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.contact-content_title {
+  color: white;
+  text-align: center;
+}
+
+@media only screen and (min-width: 769px) {
+  .contact-content_title {
+    display: none;
+  }
+}
+
+.contact-content_details {
+  padding: 30px 0;
+}
+
+.contact-content_description {
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.contact-content_medium_details {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.contact-content_text {
+  color: white;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.contact-content_medium {
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+}
+/*# sourceMappingURL=contact.css.map */

@@ -1,0 +1,41 @@
+@import './main';
+
+.contact-content {
+  padding: 50px 0;
+  width: 70%;
+  margin-left: 15%;
+
+  &_title {
+    color: $primary-font-color;
+    text-align: center;
+    @include min-width-tablet {
+      display: none;
+    }
+  }
+
+  &_details {
+    padding: 30px 0;
+  }
+
+  &_description {
+    padding-bottom: 50px;
+    text-align: center;
+  }
+
+  &_medium_details {
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  &_text {
+    color: $primary-font-color;
+    font-size: 12px;
+    font-weight: normal;
+  }
+
+  &_medium {
+    font-size: 12px;
+    font-weight: bold;
+    color: $primary-font-color;
+  }
+}

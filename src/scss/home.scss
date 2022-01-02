@@ -1,0 +1,24 @@
+@import './main';
+
+.home-content {
+  color: $primary-font-color;
+  width: 70%;
+  height: 70vh;
+  // border: solid 1px $primary-font-color;
+  // margin-top: 10%;
+  margin-left: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  p {
+    text-align: center;
+  }
+}
+
+.home-title {
+  margin: 0 auto;
+  @include min-width-tablet {
+    display: none;
+  }
+}

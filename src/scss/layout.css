@@ -1,0 +1,27 @@
+.background-wrapper {
+  width: 100%;
+  min-height: 85vh;
+  background-color: #453737;
+}
+
+.footer-wrapper {
+  background-color: #f1bb52;
+  min-height: 15vh;
+}
+
+.footer-icon-wrapper {
+  padding-top: 36px;
+  padding-bottom: 36px;
+  max-width: 50%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+/*# sourceMappingURL=layout.css.map */
